@@ -1,0 +1,12 @@
+﻿# Ignore Visual Studio workspace files
+.vs/
+# Maven / IntelliJ / build
+target/
+*.class
+*.log
+*.tmp
+*.iml
+.idea/
+# OS files
+.DS_Store
+Thumbs.db
