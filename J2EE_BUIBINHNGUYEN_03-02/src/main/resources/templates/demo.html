@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Thymeleaf</title>
+</head>
+<body>
+
+<p th:text="${message}">Default message (sẽ bị thay thế)</p>
+
+<p th:object="${student}" th:text="*{name}">Tên sinh viên (sẽ bị thay thế)</p>
+
+<p>ID sinh viên: <span th:text="${student.id}">0</span></p>
+
+<a th:href="@{/home}">Quay về trang chủ</a>
+
+</body>
+</html>
